@@ -1,0 +1,145 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 3f1ec69..86e99ea 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,16 +1,131 @@[m
+ <!DOCTYPE html>[m
+ <html lang = "en">[m
+     [m
+[32m+[m[32m<html lang="zh-CN">[m[41m[m
+ <head>[m
+[31m-        <meta charset="utf-8">[m
+[31m-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">[m
+[31m-        <link rel="stylesheet" href="style.css">[m
+[31m-        <title>This Website</title>[m
+[32m+[m[32m  <meta charset="UTF-8">[m[41m[m
+[32m+[m[32m<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">[m[41m[m
+[32m+[m[32m<meta name="theme-color" content="#222">[m[41m[m
+[32m+[m[32m<meta name="generator" content="Hexo 3.9.0">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m<link rel="stylesheet" href="/css/style.css?v=7.4.0">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m<script id="hexo-configurations">[m[41m[m
+[32m+[m[32m  var NexT = window.NexT || {};[m[41m[m
+[32m+[m[32m  var CONFIG = {[m[41m[m
+[32m+[m[32m    root: '/',[m[41m[m
+[32m+[m[32m    scheme: 'Pisces',[m[41m[m
+[32m+[m[32m    version: '7.4.0',[m[41m[m
+[32m+[m[32m    exturl: false,[m[41m[m
+[32m+[m[32m    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},[m[41m[m
+[32m+[m[32m    copycode: {"enable":false,"show_result":false,"style":null},[m[41m[m
+[32m+[m[32m    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},[m[41m[m
+[32m+[m[32m    bookmark: {"enable":false,"color":"#222","save":"auto"},[m[41m[m
+[32m+[m[32m    fancybox: false,[m[41m[m
+[32m+[m[32m    mediumzoom: false,[m[41m[m
+[32m+[m[32m    lazyload: false,[m[41m[m
+[32m+[m[32m    pangu: false,[m[41m[m
+[32m+[m[32m    algolia: {[m[41m[m
+[32m+[m[32m      appID: '',[m[41m[m
+[32m+[m[32m      apiKey: '',[m[41m[m
+[32m+[m[32m      indexName: '',[m[41m[m
+[32m+[m[32m      hits: {"per_page":10},[m[41m[m
+[32m+[m[32m      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}[m[41m[m
+[32m+[m[32m    },[m[41m[m
+[32m+[m[32m    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},[m[41m[m
+[32m+[m[32m    path: '',[m[41m[m
+[32m+[m[32m    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},[m[41m[m
+[32m+[m[32m    translation: {[m[41m[m
+[32m+[m[32m      copy_button: 'Yes',[m[41m[m
+[32m+[m[32m      copy_success: 'True',[m[41m[m
+[32m+[m[32m      copy_failure: 'No'[m[41m[m
+[32m+[m[32m    },[m[41m[m
+[32m+[m[32m    sidebarPadding: 40[m[41m[m
+[32m+[m[32m  };[m[41m[m
+[32m+[m[32m</script>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  <meta property="og:type" content="website">[m[41m[m
+[32m+[m[32m<meta property="og:title" content="Yes it's true">[m[41m[m
+[32m+[m[32m<meta property="og:url" content="https://seongu26.github.io/website/index.html">[m[41m[m
+[32m+[m[32m<meta property="og:site_name" content="Yes it's true">[m[41m[m
+[32m+[m[32m<meta property="og:locale" content="en">[m[41m[m
+[32m+[m[32m  <link rel="canonical" href="https://seongu26.github.io/">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m<script id="page-configurations">[m[41m[m
+[32m+[m[32m  // https://hexo.io/docs/variables.html[m[41m[m
+[32m+[m[32m  CONFIG.page = {[m[41m[m
+[32m+[m[32m    sidebar: "",[m[41m[m
+[32m+[m[32m    isHome: true,[m[41m[m
+[32m+[m[32m    isPost: false,[m[41m[m
+[32m+[m[32m    isPage: false,[m[41m[m
+[32m+[m[32m    isArchive: false[m[41m[m
+[32m+[m[32m  };[m[41m[m
+[32m+[m[32m</script>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m  [m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  <noscript>[m[41m[m
+[32m+[m[32m  <style>[m[41m[m
+[32m+[m[32m  .use-motion .brand,[m[41m[m
+[32m+[m[32m  .use-motion .menu-item,[m[41m[m
+[32m+[m[32m  .sidebar-inner,[m[41m[m
+[32m+[m[32m  .use-motion .post-block,[m[41m[m
+[32m+[m[32m  .use-motion .pagination,[m[41m[m
+[32m+[m[32m  .use-motion .comments,[m[41m[m
+[32m+[m[32m  .use-motion .post-header,[m[41m[m
+[32m+[m[32m  .use-motion .post-body,[m[41m[m
+[32m+[m[32m  .use-motion .collection-header { opacity: initial; }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .use-motion .logo,[m[41m[m
+[32m+[m[32m  .use-motion .site-title,[m[41m[m
+[32m+[m[32m  .use-motion .site-subtitle {[m[41m[m
+[32m+[m[32m    opacity: initial;[m[41m[m
+[32m+[m[32m    top: initial;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  .use-motion .logo-line-before i { left: initial; }[m[41m[m
+[32m+[m[32m  .use-motion .logo-line-after i { right: initial; }[m[41m[m
+[32m+[m[32m  </style>[m[41m[m
+[32m+[m[32m</noscript>[m[41m[m
+[32m+[m[41m[m
+ </head>[m
+[31m-<body>       [m
+ [m
+[31m-    <h1>Hi</h1>[m
+[31m-    <hr>[m
+[31m-    <script src = "apps.js"></script>[m
+[32m+[m[32m<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">[m[41m[m
+[32m+[m[32m  <div class="container use-motion">[m[41m[m
+[32m+[m[32m    <div class="headband"></div>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m[32m    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">[m[41m[m
+[32m+[m[32m      <div class="header-inner"><div class="site-brand-container">[m[41m[m
+[32m+[m[32m  <div class="site-meta">[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    <div>[m[41m[m
+[32m+[m[32m      <a href="/" class="brand" rel="start">[m[41m[m
+[32m+[m[32m        <span class="logo-line-before"><i></i></span>[m[41m[m
+[32m+[m[32m        <span class="site-title">游~游~游</span>[m[41m[m
+[32m+[m[32m        <span class="logo-line-after"><i></i></span>[m[41m[m
+[32m+[m[32m      </a>[m[41m[m
+[32m+[m[32m    </div>[m[41m[m
+[32m+[m[32m  </div>[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m  <div class="site-nav-toggle">[m[41m[m
+[32m+[m[32m    <button aria-label="切换导航栏">[m[41m[m
+[32m+[m[32m      <span class="btn-bar"></span>[m[41m[m
+[32m+[m[32m      <span class="btn-bar"></span>[m[41m[m
+[32m+[m[32m      <span class="btn-bar"></span>[m[41m[m
+[32m+[m[32m    </button>[m[41m[m
+[32m+[m[32m  </div>[m[41m[m
+[32m+[m[32m</div>[m[41m[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
